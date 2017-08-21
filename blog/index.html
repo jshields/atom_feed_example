@@ -7,7 +7,7 @@ title: Blog posts!
   {% for post in site.posts %}
     <li>
         <!-- FIXME: project root manually added to URL -->
-        <span>{{ post.date | date_to_string }}</span> :link:<a href="blog_example/{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+        <span>{{ post.date | date_to_string }}</span> :link:<a href="blog_example{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>
