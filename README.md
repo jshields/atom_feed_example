@@ -1,1 +1,3 @@
-# atom_feed_example
+# blog_example
+
+based on: http://jmcglone.com/guides/github-pages/
